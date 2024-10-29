@@ -15,6 +15,9 @@ namespace projectfitness
         public Formupdate()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -25,8 +28,7 @@ namespace projectfitness
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Formhapususer formRegister = new Formhapususer();
-            formRegister.ShowDialog();
+            DialogResult r = MessageBox.Show("apakah anda yakin?\nUser yang dihapus akan hilang secara permanen", "Hapus User", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
         }
 
         private void button2_Click(object sender, EventArgs e)

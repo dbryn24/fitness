@@ -16,6 +16,9 @@ namespace projectfitness
         public FormDashboard()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
             button1.BackColor = Color.Transparent;
             button1.Parent = pictureBox1; 
             button1.BringToFront();

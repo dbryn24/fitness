@@ -15,6 +15,10 @@ namespace projectfitness
         public Formdashboardregister()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
+
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox1; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
             label1.BringToFront();

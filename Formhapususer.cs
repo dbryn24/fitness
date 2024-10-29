@@ -15,6 +15,9 @@ namespace projectfitness
         public Formhapususer()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
         }
 
         private void Formhapususer_Load(object sender, EventArgs e)

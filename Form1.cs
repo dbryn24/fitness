@@ -15,7 +15,10 @@ namespace projectfitness
         public Form1()
         {
             InitializeComponent();
-            
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
+
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox1; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
             label1.BringToFront();
@@ -65,7 +68,7 @@ namespace projectfitness
         private bool IsLoginValid(string username, string password)
         {
             // Anda dapat mengganti verifikasi ini dengan validasi yang lebih kompleks (misalnya database)
-            return username == "angeli" && password == "password123";
+            return username == "email" && password == "password";
         }
 
         private void label2_Click(object sender, EventArgs e)

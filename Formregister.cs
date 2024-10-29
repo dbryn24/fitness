@@ -15,6 +15,9 @@ namespace projectfitness
         public Formregister()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
             label7.BackColor = Color.Transparent;
             label7.Parent = pictureBox1; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
             label7.BringToFront();

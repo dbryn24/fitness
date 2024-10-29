@@ -15,6 +15,9 @@ namespace projectfitness
         public Formupdate2()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
         }
 
         private void button2_Click(object sender, EventArgs e)

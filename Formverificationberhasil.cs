@@ -15,6 +15,9 @@ namespace projectfitness
         public Formverificationberhasil()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Normal;
             label2.BackColor = Color.Transparent;
             label2.Parent = pictureBox1; 
             label2.BringToFront();
