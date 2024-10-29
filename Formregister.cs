@@ -39,14 +39,9 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Create an instance of the FormDashboardRegister
             Formregister2 formRegister = new Formregister2();
-
-            // Show the FormDashboardRegister as a modal dialog
             formRegister.ShowDialog();
             this.Hide();
-            // Alternatively, if you don't want it to be a modal dialog, you can use:
-            // formRegister.Show();
         }
     }
 }

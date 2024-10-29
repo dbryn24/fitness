@@ -22,31 +22,47 @@ namespace projectfitness
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Formstatistic formRegister = new Formstatistic();
+            formRegister.Show();
+            this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form1 formRegister = new Form1();
-            formRegister.ShowDialog();
-        }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
             Formupdate formRegister = new Formupdate();
-            formRegister.ShowDialog();
+            formRegister.Show();
+            this.Hide();
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormDashboard formRegister = new FormDashboard();
+            formRegister.Show();
+            this.Hide();
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormVerification2 formRegister = new FormVerification2();
-            formRegister.ShowDialog();
+            formRegister.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form1 formRegister = new Form1();
+            formRegister.Show();
+            this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FormDashboard formRegister = new FormDashboard();
+            Formstatistic formRegister = new Formstatistic();
             formRegister.ShowDialog();
+            this.Hide();
         }
     }
 }

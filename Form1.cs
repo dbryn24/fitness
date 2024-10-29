@@ -55,7 +55,7 @@ namespace projectfitness
                 // Jika valid, buka form baru
                 FormDashboard form2 = new FormDashboard();
                 form2.Show();
-                this.Hide(); // Sembunyikan form login
+                this.Hide();
             }
             else
             {

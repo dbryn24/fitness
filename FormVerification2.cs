@@ -21,18 +21,6 @@ namespace projectfitness
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox1; 
             label1.BringToFront();
-
-            linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Parent = pictureBox1; 
-            linkLabel1.BringToFront();
-
-            linkLabel2.BackColor = Color.Transparent;
-            linkLabel2.Parent = pictureBox1; 
-            linkLabel2.BringToFront();
-
-            button2.BackColor = Color.Transparent;
-            button2.Parent = pictureBox1; 
-            button2.BringToFront();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -64,6 +52,34 @@ namespace projectfitness
         {
             Form1 formRegister = new Form1();
             formRegister.ShowDialog();
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormDashboard formReggister = new FormDashboard();
+            formReggister.ShowDialog();
+            this.Hide();
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormVerification2 formRegister = new FormVerification2();
+            formRegister.ShowDialog();
+            this.Hide();
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Formstatistic formRegister = new Formstatistic();
+            formRegister.ShowDialog();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 formRegister = new Form1();
+            formRegister.ShowDialog();
+            this.Hide();
         }
     }
 }
