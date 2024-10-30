@@ -25,10 +25,6 @@ namespace projectfitness
             linkLabel1.BackColor = Color.Transparent;
             linkLabel1.Parent = pictureBox1;
             linkLabel1.BringToFront();
-
-            linkLabel2.BackColor = Color.Transparent;
-            linkLabel2.Parent = pictureBox1;
-            linkLabel2.BringToFront();
         }
 
         private void label1_Click(object sender, EventArgs e)
