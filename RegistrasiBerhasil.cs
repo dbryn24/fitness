@@ -10,15 +10,14 @@ using System.Windows.Forms;
 
 namespace projectfitness
 {
-    public partial class Formdashboardregister : Form
+    public partial class RegistrasiBerhasil : Form
     {
-        public Formdashboardregister()
+        public RegistrasiBerhasil()
         {
             InitializeComponent();
             this.Size = new Size(1280, 720);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.WindowState = FormWindowState.Normal;
-
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox1; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
             label1.BringToFront();
@@ -28,7 +27,7 @@ namespace projectfitness
             label7.BringToFront();
         }
 
-        private void Formdashboardregister_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -38,21 +37,9 @@ namespace projectfitness
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            Formdashboardregister formRegister = new Formdashboardregister();
-            formRegister.ShowDialog();
-            this.Hide();
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            // Create an instance of the FormDashboardRegister
-            Formregister formRegister = new Formregister();
 
-            // Show the FormDashboardRegister as a modal dialog
-            formRegister.ShowDialog();
-            this.Hide();
         }
     }
 }

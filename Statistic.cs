@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projectfitness
 {
-    public partial class Formstatistic : Form
+    public partial class Statistic : Form
     {
-        public Formstatistic()
+        public Statistic()
         {
             InitializeComponent();
             this.Size = new Size(1280, 720);
@@ -22,7 +22,7 @@ namespace projectfitness
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Formstatistic formRegister = new Formstatistic();
+            Statistic formRegister = new Statistic();
             formRegister.Show();
             this.Hide();
         }
@@ -31,7 +31,7 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Formupdate formRegister = new Formupdate();
+            StatisticsUpdateDelete formRegister = new StatisticsUpdateDelete();
             formRegister.Show();
             this.Hide();
         }
@@ -46,21 +46,21 @@ namespace projectfitness
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FormVerification2 formRegister = new FormVerification2();
+            Verification formRegister = new Verification();
             formRegister.Show();
             this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form1 formRegister = new Form1();
+            Login formRegister = new Login();
             formRegister.Show();
             this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Formstatistic formRegister = new Formstatistic();
+            Statistic formRegister = new Statistic();
             formRegister.ShowDialog();
             this.Hide();
         }

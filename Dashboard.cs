@@ -44,7 +44,7 @@ namespace projectfitness
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FormVerification2 formRegister = new FormVerification2();
+            Verification formRegister = new Verification();
             formRegister.ShowDialog();
             this.Hide();
         }
@@ -56,7 +56,7 @@ namespace projectfitness
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 formRegister = new Form1();
+            Login formRegister = new Login();
             formRegister.ShowDialog();
             this.Hide();
         }
@@ -68,7 +68,7 @@ namespace projectfitness
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Formdashboardregister formRegister = new Formdashboardregister();
+            Register formRegister = new Register();
             formRegister.ShowDialog();
             this.Hide();
 
@@ -81,7 +81,7 @@ namespace projectfitness
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Formstatistic formRegister = new Formstatistic();
+            Statistic formRegister = new Statistic();
             formRegister.ShowDialog();
             this.Hide();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projectfitness
 {
-    public partial class Formregister : Form
+    public partial class RegisterAmbilFoto : Form
     {
-        public Formregister()
+        public RegisterAmbilFoto()
         {
             InitializeComponent();
             this.Size = new Size(1280, 720);
@@ -39,7 +39,7 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Formregister2 formRegister = new Formregister2();
+            RegisterKonfirmasiFoto formRegister = new RegisterKonfirmasiFoto();
             formRegister.ShowDialog();
             this.Hide();
         }

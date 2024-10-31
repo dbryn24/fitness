@@ -46,142 +46,115 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2DBregisreasi.cs">
+    <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2DBregisreasi.Designer.cs">
-      <DependentUpon>Form2DBregisreasi.cs</DependentUpon>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formdashboardregister.cs">
+    <Compile Include="RegisterAmbilFoto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formdashboardregister.Designer.cs">
-      <DependentUpon>Formdashboardregister.cs</DependentUpon>
+    <Compile Include="RegisterAmbilFoto.Designer.cs">
+      <DependentUpon>RegisterAmbilFoto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formhapususer.cs">
+    <Compile Include="RegisterKonfirmasiFoto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formhapususer.Designer.cs">
-      <DependentUpon>Formhapususer.cs</DependentUpon>
+    <Compile Include="RegisterKonfirmasiFoto.Designer.cs">
+      <DependentUpon>RegisterKonfirmasiFoto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formregister.cs">
+    <Compile Include="RegistrasiBerhasil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formregister.Designer.cs">
-      <DependentUpon>Formregister.cs</DependentUpon>
+    <Compile Include="RegistrasiBerhasil.Designer.cs">
+      <DependentUpon>RegistrasiBerhasil.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formregister2.cs">
+    <Compile Include="Statistic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formregister2.Designer.cs">
-      <DependentUpon>Formregister2.cs</DependentUpon>
+    <Compile Include="Statistic.Designer.cs">
+      <DependentUpon>Statistic.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formregisterberhasil.cs">
+    <Compile Include="StatisticsUpdateDelete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formregisterberhasil.Designer.cs">
-      <DependentUpon>Formregisterberhasil.cs</DependentUpon>
+    <Compile Include="StatisticsUpdateDelete.Designer.cs">
+      <DependentUpon>StatisticsUpdateDelete.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formstatistic.cs">
+    <Compile Include="UpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formstatistic.Designer.cs">
-      <DependentUpon>Formstatistic.cs</DependentUpon>
+    <Compile Include="UpdateUser.Designer.cs">
+      <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formupdate.cs">
+    <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formupdate.Designer.cs">
-      <DependentUpon>Formupdate.cs</DependentUpon>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formupdate2.cs">
+    <Compile Include="Verification.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formupdate2.Designer.cs">
-      <DependentUpon>Formupdate2.cs</DependentUpon>
+    <Compile Include="Verification.Designer.cs">
+      <DependentUpon>Verification.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVerification.cs">
+    <Compile Include="VerificationAktif.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormVerification.Designer.cs">
-      <DependentUpon>FormVerification.cs</DependentUpon>
+    <Compile Include="VerificationAktif.Designer.cs">
+      <DependentUpon>VerificationAktif.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVerification2.cs">
+    <Compile Include="VerificationKedaluarsa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormVerification2.Designer.cs">
-      <DependentUpon>FormVerification2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formverificationberhasil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formverificationberhasil.Designer.cs">
-      <DependentUpon>Formverificationberhasil.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formverificationkadaluarsa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formverificationkadaluarsa.Designer.cs">
-      <DependentUpon>Formverificationkadaluarsa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formverificationscanning.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formverificationscanning.Designer.cs">
-      <DependentUpon>Formverificationscanning.cs</DependentUpon>
+    <Compile Include="VerificationKedaluarsa.Designer.cs">
+      <DependentUpon>VerificationKedaluarsa.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2DBregisreasi.resx">
-      <DependentUpon>Form2DBregisreasi.cs</DependentUpon>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formdashboardregister.resx">
-      <DependentUpon>Formdashboardregister.cs</DependentUpon>
+    <EmbeddedResource Include="RegisterAmbilFoto.resx">
+      <DependentUpon>RegisterAmbilFoto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formhapususer.resx">
-      <DependentUpon>Formhapususer.cs</DependentUpon>
+    <EmbeddedResource Include="RegisterKonfirmasiFoto.resx">
+      <DependentUpon>RegisterKonfirmasiFoto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formregister.resx">
-      <DependentUpon>Formregister.cs</DependentUpon>
+    <EmbeddedResource Include="RegistrasiBerhasil.resx">
+      <DependentUpon>RegistrasiBerhasil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formregister2.resx">
-      <DependentUpon>Formregister2.cs</DependentUpon>
+    <EmbeddedResource Include="Statistic.resx">
+      <DependentUpon>Statistic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formregisterberhasil.resx">
-      <DependentUpon>Formregisterberhasil.cs</DependentUpon>
+    <EmbeddedResource Include="StatisticsUpdateDelete.resx">
+      <DependentUpon>StatisticsUpdateDelete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formstatistic.resx">
-      <DependentUpon>Formstatistic.cs</DependentUpon>
+    <EmbeddedResource Include="UpdateUser.resx">
+      <DependentUpon>UpdateUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formupdate.resx">
-      <DependentUpon>Formupdate.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formupdate2.resx">
-      <DependentUpon>Formupdate2.cs</DependentUpon>
+    <EmbeddedResource Include="Verification.resx">
+      <DependentUpon>Verification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormVerification.resx">
-      <DependentUpon>FormVerification.cs</DependentUpon>
+    <EmbeddedResource Include="VerificationAktif.resx">
+      <DependentUpon>VerificationAktif.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormVerification2.resx">
-      <DependentUpon>FormVerification2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formverificationberhasil.resx">
-      <DependentUpon>Formverificationberhasil.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formverificationkadaluarsa.resx">
-      <DependentUpon>Formverificationkadaluarsa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formverificationscanning.resx">
-      <DependentUpon>Formverificationscanning.cs</DependentUpon>
+    <EmbeddedResource Include="VerificationKedaluarsa.resx">
+      <DependentUpon>VerificationKedaluarsa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
