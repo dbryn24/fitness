@@ -52,6 +52,7 @@ namespace projectfitness
         {
             Login formRegister = new Login();
             formRegister.ShowDialog();
+            this.Hide();
         }
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

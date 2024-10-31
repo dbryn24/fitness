@@ -33,7 +33,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -93,32 +92,17 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(98)))), ((int)(((byte)(29)))));
-            this.button1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button1.Location = new System.Drawing.Point(372, 363);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 27);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "AMBIL FOTO LAGI?";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // Formregister2
+            // RegisterKonfirmasiFoto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1167, 613);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Formregister2";
+            this.Name = "RegisterKonfirmasiFoto";
             this.Text = "Formregister2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -133,6 +117,5 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
     }
 }

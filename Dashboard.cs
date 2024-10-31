@@ -76,7 +76,9 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            Statistic FormRegister = new Statistic();
+            FormRegister.ShowDialog();
+            this.Hide();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

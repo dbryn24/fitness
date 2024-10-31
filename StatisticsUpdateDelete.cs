@@ -24,6 +24,7 @@ namespace projectfitness
         {
             UpdateUser formRegister = new UpdateUser();
             formRegister.ShowDialog();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
