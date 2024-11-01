@@ -54,5 +54,12 @@ namespace projectfitness
             formRegister.ShowDialog();
             this.Hide();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            FormDashboard back = new FormDashboard();
+            back.Show();
+            this.Hide();
+        }
     }
 }

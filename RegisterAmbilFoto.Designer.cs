@@ -33,6 +33,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.back = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -91,11 +92,23 @@
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
+            // back
+            // 
+            this.back.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(54, 23);
+            this.back.TabIndex = 100;
+            this.back.Text = "Back";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // RegisterAmbilFoto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox1);
@@ -115,5 +128,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button back;
     }
 }

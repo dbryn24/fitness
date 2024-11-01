@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
@@ -105,9 +106,29 @@ namespace projectfitness
 
         private void linkLabel3_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FormDashboard formReggister = new FormDashboard();
-            formReggister.ShowDialog();
+            FormDashboard formRegister = new FormDashboard();
+            formRegister.ShowDialog();
             this.Hide(); 
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            FormDashboard back = new FormDashboard();
+            back.Show();
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Paint(object sender, PaintEventArgs e)
+        {
+            System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
+            path.AddEllipse(0, 0, pictureBox2.Width, pictureBox2.Height);
+            pictureBox2.Region = new Region(path);
+        }
+
     }
 }

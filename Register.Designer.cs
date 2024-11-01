@@ -41,6 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.RadioLaki = new System.Windows.Forms.RadioButton();
             this.RadioPerempuan = new System.Windows.Forms.RadioButton();
+            this.back = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +50,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-10, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1280, 680);
@@ -192,11 +193,23 @@
             this.RadioPerempuan.Text = "Perempuan";
             this.RadioPerempuan.UseVisualStyleBackColor = false;
             // 
+            // back
+            // 
+            this.back.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(54, 23);
+            this.back.TabIndex = 99;
+            this.back.Text = "Back";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.RadioPerempuan);
             this.Controls.Add(this.RadioLaki);
             this.Controls.Add(this.label4);
@@ -234,5 +247,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton RadioLaki;
         private System.Windows.Forms.RadioButton RadioPerempuan;
+        private System.Windows.Forms.Button back;
     }
 }

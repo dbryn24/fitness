@@ -36,5 +36,12 @@ namespace projectfitness
         {
 
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Register back = new Register();
+            back.Show();
+            this.Hide();
+        }
     }
 }

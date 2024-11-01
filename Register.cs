@@ -47,10 +47,7 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Create an instance of the FormDashboardRegister
             RegisterAmbilFoto formRegister = new RegisterAmbilFoto();
-
-            // Show the FormDashboardRegister as a modal dialog
             formRegister.ShowDialog();
             this.Hide();
         }
@@ -58,6 +55,13 @@ namespace projectfitness
         private void TxtEmail_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            FormDashboard back = new FormDashboard();
+            back.Show();
+            this.Hide();
         }
     }
 }
