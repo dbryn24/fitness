@@ -47,7 +47,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1174, 618);
+            this.pictureBox1.Size = new System.Drawing.Size(1264, 681);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -59,7 +59,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Black", 65F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(42, 62);
+            this.label1.Location = new System.Drawing.Point(87, 93);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(556, 246);
@@ -73,7 +73,7 @@
             this.buttonLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.buttonLogin.Font = new System.Drawing.Font("Arial Black", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonLogin.Location = new System.Drawing.Point(686, 462);
+            this.buttonLogin.Location = new System.Drawing.Point(731, 493);
             this.buttonLogin.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogin.Name = "buttonLogin";
             this.buttonLogin.Size = new System.Drawing.Size(429, 50);
@@ -87,7 +87,7 @@
             this.labelpassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelpassword.ForeColor = System.Drawing.Color.Gray;
-            this.labelpassword.Location = new System.Drawing.Point(686, 367);
+            this.labelpassword.Location = new System.Drawing.Point(731, 398);
             this.labelpassword.Margin = new System.Windows.Forms.Padding(2);
             this.labelpassword.Name = "labelpassword";
             this.labelpassword.Size = new System.Drawing.Size(431, 38);
@@ -100,7 +100,7 @@
             this.labelemail.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelemail.ForeColor = System.Drawing.Color.Gray;
-            this.labelemail.Location = new System.Drawing.Point(686, 302);
+            this.labelemail.Location = new System.Drawing.Point(731, 333);
             this.labelemail.Margin = new System.Windows.Forms.Padding(2);
             this.labelemail.Name = "labelemail";
             this.labelemail.Size = new System.Drawing.Size(431, 38);
@@ -114,7 +114,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(58, 414);
+            this.label2.Location = new System.Drawing.Point(103, 445);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(659, 58);
@@ -130,7 +130,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Black", 50F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(778, 123);
+            this.label3.Location = new System.Drawing.Point(823, 154);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(278, 95);
@@ -138,11 +138,11 @@
             this.label3.Text = "LOGIN";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 618);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelemail);
@@ -151,7 +151,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

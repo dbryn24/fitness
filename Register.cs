@@ -54,5 +54,10 @@ namespace projectfitness
             formRegister.ShowDialog();
             this.Hide();
         }
+
+        private void TxtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
