@@ -56,7 +56,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(602, 59);
+            this.label1.Location = new System.Drawing.Point(649, 91);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(357, 56);
@@ -70,7 +70,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(77)))), ((int)(((byte)(64)))));
             this.button3.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button3.Location = new System.Drawing.Point(54, 582);
+            this.button3.Location = new System.Drawing.Point(101, 614);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 27);
@@ -87,7 +87,7 @@
             this.linkLabel3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel3.LinkColor = System.Drawing.Color.White;
-            this.linkLabel3.Location = new System.Drawing.Point(11, 400);
+            this.linkLabel3.Location = new System.Drawing.Point(58, 432);
             this.linkLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(213, 34);
@@ -105,7 +105,7 @@
             this.linkLabel4.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel4.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel4.LinkColor = System.Drawing.Color.White;
-            this.linkLabel4.Location = new System.Drawing.Point(9, 277);
+            this.linkLabel4.Location = new System.Drawing.Point(56, 309);
             this.linkLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(216, 36);
@@ -123,7 +123,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(8, 333);
+            this.linkLabel1.Location = new System.Drawing.Point(55, 365);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(216, 36);
@@ -133,12 +133,12 @@
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
-            // FormVerification2
+            // Verification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1171, 617);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.linkLabel3);
@@ -146,7 +146,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "FormVerification2";
+            this.Name = "Verification";
             this.Text = "FormVerification2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

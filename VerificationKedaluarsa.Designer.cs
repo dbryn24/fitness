@@ -48,7 +48,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(706, 509);
+            this.label2.Location = new System.Drawing.Point(754, 542);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(203, 17);
@@ -61,7 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(525, 88);
+            this.label1.Location = new System.Drawing.Point(573, 121);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(328, 54);
@@ -75,7 +75,7 @@
             this.button4.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.AliceBlue;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.Location = new System.Drawing.Point(617, 448);
+            this.button4.Location = new System.Drawing.Point(665, 481);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(372, 60);
@@ -101,7 +101,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(595, 214);
+            this.label3.Location = new System.Drawing.Point(643, 247);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(208, 31);
@@ -116,7 +116,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(8, 333);
+            this.linkLabel1.Location = new System.Drawing.Point(56, 366);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(216, 36);
@@ -132,7 +132,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(77)))), ((int)(((byte)(64)))));
             this.button3.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button3.Location = new System.Drawing.Point(54, 582);
+            this.button3.Location = new System.Drawing.Point(102, 615);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 27);
@@ -149,7 +149,7 @@
             this.linkLabel3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel3.LinkColor = System.Drawing.Color.White;
-            this.linkLabel3.Location = new System.Drawing.Point(11, 400);
+            this.linkLabel3.Location = new System.Drawing.Point(59, 433);
             this.linkLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(213, 34);
@@ -167,7 +167,7 @@
             this.linkLabel4.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel4.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel4.LinkColor = System.Drawing.Color.White;
-            this.linkLabel4.Location = new System.Drawing.Point(9, 277);
+            this.linkLabel4.Location = new System.Drawing.Point(57, 310);
             this.linkLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(216, 36);
@@ -177,12 +177,12 @@
             this.linkLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
-            // Formverificationkadaluarsa
+            // VerificationKedaluarsa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1169, 615);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.linkLabel3);
@@ -193,7 +193,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Formverificationkadaluarsa";
+            this.Name = "VerificationKedaluarsa";
             this.Text = "Formverificationkadaluarsa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
