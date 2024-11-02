@@ -61,5 +61,15 @@ namespace projectfitness
             back.Show();
             this.Hide();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

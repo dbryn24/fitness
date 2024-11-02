@@ -33,7 +33,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.TxtEmail = new System.Windows.Forms.TextBox();
+            this.TxtNama = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -101,16 +101,16 @@
             this.label7.Text = "REGISTER";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // TxtEmail
+            // TxtNama
             // 
-            this.TxtEmail.BackColor = System.Drawing.Color.LightGray;
-            this.TxtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtEmail.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEmail.Location = new System.Drawing.Point(414, 225);
-            this.TxtEmail.Name = "TxtEmail";
-            this.TxtEmail.Size = new System.Drawing.Size(428, 32);
-            this.TxtEmail.TabIndex = 17;
-            this.TxtEmail.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
+            this.TxtNama.BackColor = System.Drawing.Color.LightGray;
+            this.TxtNama.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNama.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNama.Location = new System.Drawing.Point(414, 225);
+            this.TxtNama.Name = "TxtNama";
+            this.TxtNama.Size = new System.Drawing.Size(428, 32);
+            this.TxtNama.TabIndex = 17;
+            this.TxtNama.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
             // 
             // pictureBox2
             // 
@@ -131,9 +131,9 @@
             this.label2.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(407, 185);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 37);
+            this.label2.Size = new System.Drawing.Size(103, 37);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Email";
+            this.label2.Text = "Nama";
             // 
             // label3
             // 
@@ -216,7 +216,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.NoTelp);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtEmail);
+            this.Controls.Add(this.TxtNama);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label1);
@@ -239,7 +239,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox TxtEmail;
+        private System.Windows.Forms.TextBox TxtNama;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
