@@ -112,10 +112,10 @@
             // 
             this.RadioVisitor.AutoSize = true;
             this.RadioVisitor.BackColor = System.Drawing.SystemColors.Window;
-            this.RadioVisitor.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadioVisitor.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RadioVisitor.Location = new System.Drawing.Point(366, 252);
             this.RadioVisitor.Name = "RadioVisitor";
-            this.RadioVisitor.Size = new System.Drawing.Size(107, 36);
+            this.RadioVisitor.Size = new System.Drawing.Size(129, 44);
             this.RadioVisitor.TabIndex = 106;
             this.RadioVisitor.TabStop = true;
             this.RadioVisitor.Text = "Visitor";
@@ -125,10 +125,10 @@
             // 
             this.RadioMingguan.AutoSize = true;
             this.RadioMingguan.BackColor = System.Drawing.SystemColors.Window;
-            this.RadioMingguan.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadioMingguan.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RadioMingguan.Location = new System.Drawing.Point(366, 309);
             this.RadioMingguan.Name = "RadioMingguan";
-            this.RadioMingguan.Size = new System.Drawing.Size(151, 36);
+            this.RadioMingguan.Size = new System.Drawing.Size(184, 44);
             this.RadioMingguan.TabIndex = 107;
             this.RadioMingguan.TabStop = true;
             this.RadioMingguan.Text = "Mingguan";
@@ -138,10 +138,10 @@
             // 
             this.RadioBulanan.AutoSize = true;
             this.RadioBulanan.BackColor = System.Drawing.SystemColors.Window;
-            this.RadioBulanan.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadioBulanan.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RadioBulanan.Location = new System.Drawing.Point(366, 370);
             this.RadioBulanan.Name = "RadioBulanan";
-            this.RadioBulanan.Size = new System.Drawing.Size(131, 36);
+            this.RadioBulanan.Size = new System.Drawing.Size(158, 44);
             this.RadioBulanan.TabIndex = 108;
             this.RadioBulanan.TabStop = true;
             this.RadioBulanan.Text = "Bulanan";

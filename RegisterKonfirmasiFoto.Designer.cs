@@ -47,12 +47,12 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(98)))), ((int)(((byte)(29)))));
             this.button3.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button3.Location = new System.Drawing.Point(509, 470);
+            this.button3.Location = new System.Drawing.Point(449, 461);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(260, 32);
+            this.button3.Size = new System.Drawing.Size(371, 32);
             this.button3.TabIndex = 22;
-            this.button3.Text = "SIMPAN";
+            this.button3.Text = "SIMPAN dan PILIH PAKET LANGGANAN";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
