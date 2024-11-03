@@ -30,48 +30,7 @@ namespace projectfitness
         // Event handler untuk tombol submit pembayaran
         private void button3_Click(object sender, EventArgs e)
         {
-            // Memeriksa apakah metode pembayaran dipilih
-            if (PembayaranCash.Checked || PembayaranTransfer.Checked)
-            {
-                try
-                {
-                    koneksi.Open();
-
-                    // Tentukan jenis pembayaran berdasarkan pilihan pengguna
-                    string pembayaran = PembayaranCash.Checked ? "Cash" : "Transfer";
-
-                    // Query untuk memasukkan data jenis pembayaran dan tanggal pembayaran
-                    query = "INSERT INTO payment (Jenis_Pembayaran, Tgl_Pembayaran) VALUES (@Jenis_Pembayaran, NOW())";
-                    perintah = new MySqlCommand(query, koneksi);
-                    perintah.Parameters.AddWithValue("@Jenis_Pembayaran", pembayaran);
-
-                    int res = perintah.ExecuteNonQuery();
-
-                    if (res == 1)
-                    {
-                        MessageBox.Show("Data berhasil disimpan.");
-                        RegistrasiBerhasil formRegister = new RegistrasiBerhasil();
-                        formRegister.ShowDialog();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Gagal menyimpan data, tidak ada baris yang terpengaruh.");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message);
-                }
-                finally
-                {
-                    koneksi.Close();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Data Tidak Lengkap! Pilih metode pembayaran.");
-            }
+        
         }
 
         // Event handler untuk radio button PembayaranCash
