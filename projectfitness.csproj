@@ -53,6 +53,12 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="picture.cs" />
+    <Compile Include="PilihLangganan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PilihLangganan.Designer.cs">
+      <DependentUpon>PilihLangganan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,12 @@
     <Compile Include="StatisticsUpdateDelete.Designer.cs">
       <DependentUpon>StatisticsUpdateDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="TampilUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TampilUser.Designer.cs">
+      <DependentUpon>TampilUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +136,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PilihLangganan.resx">
+      <DependentUpon>PilihLangganan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StatisticsUpdateDelete.resx">
       <DependentUpon>StatisticsUpdateDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TampilUser.resx">
+      <DependentUpon>TampilUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateUser.resx">
       <DependentUpon>UpdateUser.cs</DependentUpon>

@@ -30,7 +30,7 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            RegistrasiBerhasil formRegister = new RegistrasiBerhasil();
+            PilihLangganan formRegister = new PilihLangganan();
             formRegister.ShowDialog();
             this.Hide();
         }
