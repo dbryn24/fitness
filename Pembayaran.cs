@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projectfitness
 {
-    public partial class PilihLangganan : Form
+    public partial class Pembayaran : Form
     {
-        public PilihLangganan()
+        public Pembayaran()
         {
             InitializeComponent();
             this.Size = new Size(1280, 720);
@@ -22,14 +22,9 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Pembayaran formRegister = new Pembayaran();
+            RegistrasiBerhasil formRegister = new RegistrasiBerhasil();
             formRegister.ShowDialog();
             this.Hide();
-        }
-
-        private void PilihLangganan_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

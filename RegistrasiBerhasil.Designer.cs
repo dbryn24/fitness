@@ -49,7 +49,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(318, 31);
             this.button3.TabIndex = 27;
-            this.button3.Text = "PILIH PAKET LANGGANAN";
+            this.button3.Text = "SELESAI";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

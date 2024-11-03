@@ -162,6 +162,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "PilihLangganan";
             this.Text = "PilihLangganan";
+            this.Load += new System.EventHandler(this.PilihLangganan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
