@@ -7,13 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace projectfitness
 {
     public partial class PilihLangganan : Form
     {
+        private MySqlConnection koneksi;
+        private MySqlDataAdapter adapter;
+        private MySqlCommand perintah;
+        private DataSet ds = new DataSet();
+        private string alamat, query;
         public PilihLangganan()
         {
+            alamat = "server=localhost; database=db_fitness; username=root; password=262311Ak.";
+            koneksi = new MySqlConnection(alamat);
+
             InitializeComponent();
             this.Size = new Size(1280, 720);
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -25,11 +35,8 @@ namespace projectfitness
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Pembayaran formRegister = new Pembayaran();
-            formRegister.ShowDialog();
-            this.Hide();
-        }
 
+        }
         private void PilihLangganan_Load(object sender, EventArgs e)
         {
 

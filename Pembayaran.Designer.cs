@@ -52,6 +52,7 @@
             this.PembayaranTransfer.TabStop = true;
             this.PembayaranTransfer.Text = "Transfer";
             this.PembayaranTransfer.UseVisualStyleBackColor = false;
+            this.PembayaranTransfer.CheckedChanged += new System.EventHandler(this.PembayaranTransfer_CheckedChanged);
             // 
             // PembayaranCash
             // 
@@ -65,6 +66,7 @@
             this.PembayaranCash.TabStop = true;
             this.PembayaranCash.Text = "Cash";
             this.PembayaranCash.UseVisualStyleBackColor = false;
+            this.PembayaranCash.CheckedChanged += new System.EventHandler(this.PembayaranCash_CheckedChanged);
             // 
             // label1
             // 
@@ -79,6 +81,7 @@
             this.label1.TabIndex = 112;
             this.label1.Text = "Pilih metode pembayaran";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
