@@ -58,7 +58,9 @@
     <Compile Include="Pembayaran.Designer.cs">
       <DependentUpon>Pembayaran.cs</DependentUpon>
     </Compile>
-    <Compile Include="picture.cs" />
+    <Compile Include="picture.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="PilihLangganan.cs">
       <SubType>Form</SubType>
     </Compile>

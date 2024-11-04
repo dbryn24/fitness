@@ -41,6 +41,11 @@
             this.back = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -221,12 +226,57 @@
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint);
             // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(378, 152);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(443, 49);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "mo isi dsini tu garis biru";
+            // 
+            // label5
+            // 
+            this.label5.Location = new System.Drawing.Point(378, 236);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(443, 49);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "mo isi dsini tu garis biru";
+            // 
+            // label6
+            // 
+            this.label6.Location = new System.Drawing.Point(378, 322);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(443, 49);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "mo isi dsini tu garis biru";
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(893, 236);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(163, 387);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "gridview";
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(1074, 236);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(166, 387);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "gridview";
+            // 
             // FormDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.back);
@@ -263,5 +313,10 @@
         private System.Windows.Forms.Button back;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }
