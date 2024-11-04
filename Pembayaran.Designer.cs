@@ -105,6 +105,7 @@
             this.label7.Size = new System.Drawing.Size(594, 116);
             this.label7.TabIndex = 110;
             this.label7.Text = "REGISTER";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // button3
             // 
@@ -117,7 +118,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(260, 32);
             this.button3.TabIndex = 109;
-            this.button3.Text = "SELANJUTNYA";
+            this.button3.Text = "git";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

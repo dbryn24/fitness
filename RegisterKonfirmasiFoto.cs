@@ -39,5 +39,10 @@ namespace projectfitness
         {
 
         }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

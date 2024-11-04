@@ -18,6 +18,9 @@ namespace projectfitness
             this.Size = new Size(1280, 720);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.WindowState = FormWindowState.Normal;
+            label7.BackColor = Color.Transparent;
+            label7.Parent = pictureBox2; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
+            label7.BringToFront();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -25,6 +28,11 @@ namespace projectfitness
             RegistrasiBerhasil formRegister = new RegistrasiBerhasil();
             formRegister.ShowDialog();
             this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

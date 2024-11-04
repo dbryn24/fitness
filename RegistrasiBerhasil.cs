@@ -43,5 +43,10 @@ namespace projectfitness
             formRegister.ShowDialog();
             this.Hide();
         }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
