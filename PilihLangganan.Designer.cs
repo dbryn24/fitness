@@ -120,6 +120,7 @@
             this.RadioVisitor.TabStop = true;
             this.RadioVisitor.Text = "Visitor";
             this.RadioVisitor.UseVisualStyleBackColor = false;
+            this.RadioVisitor.CheckedChanged += new System.EventHandler(this.RadioVisitor_CheckedChanged);
             // 
             // RadioMingguan
             // 

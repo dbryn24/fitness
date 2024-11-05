@@ -66,7 +66,7 @@ namespace projectfitness
                     koneksi.Open();
 
                     // Query untuk menambahkan data ke tabel member
-                    query = "INSERT INTO member (Nama, Nomor_Telepon, Jenis_Kelamin) VALUES (@Nama, @Nomor_Telepon, @Jenis_Kelamin)";
+                    query = "INSERT INTO member (Nama, Nomor_Telepon, Jenis_Kelamin, Tanggal_Pendaftaran) VALUES (@Nama, @Nomor_Telepon, @Jenis_Kelamin, NOW())";
                     perintah = new MySqlCommand(query, koneksi);
                     perintah.Parameters.AddWithValue("@Nama", TxtNama.Text);
                     perintah.Parameters.AddWithValue("@Nomor_Telepon", NoTelp.Text);
