@@ -130,5 +130,9 @@ namespace projectfitness
             pictureBox2.Region = new Region(path);
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
