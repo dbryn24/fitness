@@ -34,10 +34,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pic = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,13 +112,13 @@
             this.label1.TabIndex = 107;
             this.label1.Text = "Pengambilan foto";
             // 
-            // pictureBox3
+            // pic
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(735, 188);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(177, 247);
-            this.pictureBox3.TabIndex = 106;
-            this.pictureBox3.TabStop = false;
+            this.pic.Location = new System.Drawing.Point(714, 188);
+            this.pic.Name = "pic";
+            this.pic.Size = new System.Drawing.Size(198, 247);
+            this.pic.TabIndex = 106;
+            this.pic.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -139,7 +139,7 @@
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pic);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button3);
@@ -148,7 +148,7 @@
             this.Name = "RegisterKonfirmasiFoto";
             this.Text = "Formregister2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -162,7 +162,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pic;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

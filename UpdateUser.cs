@@ -79,5 +79,17 @@ namespace projectfitness
                 this.Hide();
             }
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Paint(object sender, PaintEventArgs e)
+        {
+            System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
+            path.AddEllipse(0, 0, pictureBox2.Width, pictureBox2.Height);
+            pictureBox2.Region = new Region(path);
+        }
     }
 }
