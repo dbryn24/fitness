@@ -130,5 +130,10 @@ namespace projectfitness
             pictureBox2.Region = new Region(path);
         }
 
+        private void buttonCR_Click(object sender, EventArgs e)
+        {
+            Formpengguna formpengguna = new Formpengguna();
+            formpengguna.Show();
+        }
     }
 }

@@ -47,6 +47,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.buttonCR = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +55,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 40);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1280, 680);
@@ -276,12 +277,23 @@
             this.textBox1.TabIndex = 20;
             this.textBox1.Text = "Search Member";
             // 
+            // buttonCR
+            // 
+            this.buttonCR.Location = new System.Drawing.Point(125, 479);
+            this.buttonCR.Name = "buttonCR";
+            this.buttonCR.Size = new System.Drawing.Size(75, 23);
+            this.buttonCR.TabIndex = 21;
+            this.buttonCR.Text = "Print";
+            this.buttonCR.UseVisualStyleBackColor = true;
+            this.buttonCR.Click += new System.EventHandler(this.buttonCR_Click);
+            // 
             // FormDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.buttonCR);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -330,5 +342,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button buttonCR;
     }
 }
