@@ -23,7 +23,7 @@ namespace projectfitness
 
         public Register()
         {
-            alamat = "server=localhost; database=db_fitness; username=root; password=262311Ak.";
+            alamat = "server=localhost; database=db_fitness; username=root; password=";
             koneksi = new MySqlConnection(alamat);
 
             InitializeComponent();
@@ -160,6 +160,11 @@ namespace projectfitness
         }
 
         private void RadioPerempuan_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
