@@ -65,7 +65,29 @@ namespace projectfitness
                 {
                     koneksi.Open();
 
-                    // Query untuk menambahkan data ke tabel member
+                    // Query untuk memeriksa apakah nama sudah ada di database
+                    string checkNameQuery = "SELECT COUNT(*) FROM member WHERE Nama = @Nama";
+                    MySqlCommand checkNameCommand = new MySqlCommand(checkNameQuery, koneksi);
+                    checkNameCommand.Parameters.AddWithValue("@Nama", TxtNama.Text);
+                    int nameCount = Convert.ToInt32(checkNameCommand.ExecuteScalar());
+
+                    // Jika nama sudah ada, muncul pesan peringatan
+                    if (nameCount > 0)
+                    {
+                        DialogResult result = MessageBox.Show(
+                            "Nama sudah terdaftar di database. Apakah Anda ingin mengganti nama atau tetap lanjut?",
+                            "Nama Sudah Ada",
+                            MessageBoxButtons.YesNo,
+                            MessageBoxIcon.Warning);
+
+                        if (result == DialogResult.No)
+                        {
+                            koneksi.Close();
+                            return; // Menghentikan proses jika pengguna memilih untuk tidak melanjutkan
+                        }
+                    }
+
+                    // Jika pengguna memilih untuk lanjut atau nama belum ada, lanjutkan proses insert
                     query = "INSERT INTO member (Nama, Nomor_Telepon, Jenis_Kelamin, Tanggal_Pendaftaran) VALUES (@Nama, @Nomor_Telepon, @Jenis_Kelamin, NOW())";
                     perintah = new MySqlCommand(query, koneksi);
                     perintah.Parameters.AddWithValue("@Nama", TxtNama.Text);
@@ -79,7 +101,7 @@ namespace projectfitness
                         // Mendapatkan ID member yang baru saja dimasukkan
                         long Id = perintah.LastInsertedId;
 
-                        // Query untuk menambahkan data ke tabel membership dengan Tanggal_Masuk sekarang
+                        // Query untuk menambahkan data ke tabel membership
                         string membershipQuery = "INSERT INTO membership (Id, Tgl_Mulai) VALUES (@Id, NOW())";
                         MySqlCommand membershipCommand = new MySqlCommand(membershipQuery, koneksi);
                         membershipCommand.Parameters.AddWithValue("@Id", Id);
