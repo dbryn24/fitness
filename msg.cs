@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace projectfitness
 {
-    public partial class Formpengguna : Form
+    public partial class msg : Form
     {
-        public Formpengguna()
+        public msg()
         {
             InitializeComponent();
-            this.Size = new Size(1280, 720);
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.WindowState = FormWindowState.Normal;
         }
 
-        private void crystalReportViewer2_Load(object sender, EventArgs e)
+        private void back_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
 
-        private void Formpengguna_Load(object sender, EventArgs e)
+        private void delete_Click(object sender, EventArgs e)
         {
-
+            yakinkah  formRegister = new yakinkah();
+            formRegister.ShowDialog();
+            this.Hide();
         }
     }
 }

@@ -67,6 +67,7 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "Formpengguna";
             this.Text = "Formpengguna";
+            this.Load += new System.EventHandler(this.Formpengguna_Load);
             this.ResumeLayout(false);
 
         }

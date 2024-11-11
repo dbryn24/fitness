@@ -21,9 +21,6 @@ namespace projectfitness
             this.StartPosition = FormStartPosition.CenterScreen;
             this.WindowState = FormWindowState.Normal;
 
-            linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Parent = pictureBox1; 
-            linkLabel1.BringToFront();
 
             linkLabel2.BackColor = Color.Transparent;
             linkLabel2.Parent = pictureBox1; 
@@ -41,13 +38,6 @@ namespace projectfitness
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Verification formRegister = new Verification();
-            formRegister.ShowDialog();
-            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -140,6 +130,11 @@ namespace projectfitness
         private void label4_Click(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void FormDashboard_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -28,25 +28,9 @@ namespace projectfitness
         }
 
 
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            StatisticsUpdateDelete formRegister = new StatisticsUpdateDelete();
-            formRegister.Show();
-            this.Hide();
-        }
-
-
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormDashboard formRegister = new FormDashboard();
-            formRegister.Show();
-            this.Hide();
-        }
-
-        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Verification formRegister = new Verification();
             formRegister.Show();
             this.Hide();
         }
