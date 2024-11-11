@@ -8,6 +8,8 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AForge.Video;
+using AForge.Video.DirectShow;
 
 namespace projectfitness
 {
@@ -23,6 +25,33 @@ namespace projectfitness
             label7.BackColor = Color.Transparent;
             label7.Parent = pictureBox1; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
             label7.BringToFront();
+        }
+
+        FilterInfoCollection filterInfoCollection;
+        VideoCaptureDevice videoCaptureDevice;
+
+
+        private void RegisterAmbilFoto_Load(object sender, EventArgs e)
+        {
+            filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            foreach (FilterInfo filterInfo in filterInfoCollection)
+            {
+                cboCamera.Items.Add(filterInfo.Name);
+            }
+            cboCamera.SelectedIndex = 0;
+            videoCaptureDevice = new VideoCaptureDevice();
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cboCamera.SelectedIndex].MonikerString); 
+            videoCaptureDevice.NewFrame += VideoCaptureDevice_NewFrame;
+            videoCaptureDevice.Start();
+        }
+
+        private void VideoCaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            pic.Image = (Bitmap)eventArgs.Frame.Clone();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -42,6 +71,12 @@ namespace projectfitness
             Register back = new Register();
             back.Show();
             this.Hide();
+        }
+
+        private void RegisterAmbilFoto_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (videoCaptureDevice.IsRunning == true)
+                videoCaptureDevice.Stop();
         }
     }
 }
