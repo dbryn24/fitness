@@ -61,5 +61,10 @@ namespace projectfitness
             back.Show();
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
