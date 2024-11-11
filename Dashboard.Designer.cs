@@ -42,6 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.buttonCR = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
@@ -57,7 +58,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 40);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1280, 680);
@@ -271,12 +272,25 @@
             this.dataGridView4.Size = new System.Drawing.Size(344, 347);
             this.dataGridView4.TabIndex = 24;
             // 
+            // buttonCR
+            // 
+            this.buttonCR.Location = new System.Drawing.Point(125, 479);
+            this.buttonCR.Name = "buttonCR";
+            this.buttonCR.Size = new System.Drawing.Size(75, 23);
+            this.buttonCR.TabIndex = 21;
+            this.buttonCR.Text = "Print";
+            this.buttonCR.UseVisualStyleBackColor = true;
+            this.buttonCR.Click += new System.EventHandler(this.buttonCR_Click);
+            // 
             // FormDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+
+            this.Controls.Add(this.buttonCR);
+
             this.Controls.Add(this.dataGridView4);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView2);
@@ -323,6 +337,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button buttonCR;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
