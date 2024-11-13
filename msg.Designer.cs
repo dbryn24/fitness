@@ -115,6 +115,7 @@
             this.nama.Name = "nama";
             this.nama.Size = new System.Drawing.Size(352, 29);
             this.nama.TabIndex = 6;
+            this.nama.TextChanged += new System.EventHandler(this.nama_TextChanged);
             // 
             // noTelepon
             // 
@@ -123,6 +124,7 @@
             this.noTelepon.Name = "noTelepon";
             this.noTelepon.Size = new System.Drawing.Size(352, 29);
             this.noTelepon.TabIndex = 7;
+            this.noTelepon.TextChanged += new System.EventHandler(this.noTelepon_TextChanged);
             // 
             // alamat
             // 
@@ -131,6 +133,7 @@
             this.alamat.Name = "alamat";
             this.alamat.Size = new System.Drawing.Size(352, 29);
             this.alamat.TabIndex = 8;
+            this.alamat.TextChanged += new System.EventHandler(this.alamat_TextChanged);
             // 
             // pictureBox1
             // 
@@ -152,6 +155,7 @@
             this.update.TabIndex = 10;
             this.update.Text = "UPDATE";
             this.update.UseVisualStyleBackColor = false;
+            this.update.Click += new System.EventHandler(this.update_Click);
             // 
             // btnSearch
             // 
@@ -164,6 +168,7 @@
             this.btnSearch.TabIndex = 11;
             this.btnSearch.Text = "SEARCH";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // search
             // 
@@ -172,6 +177,7 @@
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(297, 29);
             this.search.TabIndex = 13;
+            this.search.TextChanged += new System.EventHandler(this.search_TextChanged);
             // 
             // label5
             // 

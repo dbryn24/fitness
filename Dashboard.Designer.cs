@@ -216,9 +216,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(381, 139);
+            this.dataGridView1.Location = new System.Drawing.Point(880, 235);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(440, 51);
+            this.dataGridView1.Size = new System.Drawing.Size(363, 337);
             this.dataGridView1.TabIndex = 21;
             // 
             // dataGridView2
@@ -240,10 +240,11 @@
             // dataGridView4
             // 
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(896, 220);
+            this.dataGridView4.Location = new System.Drawing.Point(381, 135);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(344, 363);
+            this.dataGridView4.Size = new System.Drawing.Size(440, 54);
             this.dataGridView4.TabIndex = 24;
+            this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             // 
             // button1
             // 
@@ -258,6 +259,7 @@
             this.button1.TabIndex = 25;
             this.button1.Text = "UPDATE USERS";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // FormDashboard
             // 
