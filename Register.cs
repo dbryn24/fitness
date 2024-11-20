@@ -23,7 +23,7 @@ namespace projectfitness
 
         public Register()
         {
-            alamat = "server=localhost; database=db_fitness; username=root; password=";
+            alamat = "server=localhost; database=db_fitness; username=root; password=262311Ak.";
             koneksi = new MySqlConnection(alamat);
 
             InitializeComponent();
