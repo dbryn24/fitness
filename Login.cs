@@ -27,6 +27,7 @@ namespace projectfitness
 
             // Inisialisasi placeholder untuk email dan password TextBox
             InitializePlaceholders();
+
         }
 
         private void InitializePlaceholders()
@@ -127,5 +128,6 @@ namespace projectfitness
         {
             // Optional: Isi jika Anda membutuhkan fungsionalitas
         }
+
     }
 }

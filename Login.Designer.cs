@@ -92,7 +92,7 @@
             this.labelpassword.Name = "labelpassword";
             this.labelpassword.Size = new System.Drawing.Size(431, 38);
             this.labelpassword.TabIndex = 3;
-            this.labelpassword.Text = "password";
+            this.labelpassword.UseSystemPasswordChar = true;
             this.labelpassword.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // labelemail
@@ -105,7 +105,6 @@
             this.labelemail.Name = "labelemail";
             this.labelemail.Size = new System.Drawing.Size(431, 38);
             this.labelemail.TabIndex = 4;
-            this.labelemail.Text = "email";
             this.labelemail.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // label2
